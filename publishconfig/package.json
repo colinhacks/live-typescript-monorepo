@@ -1,0 +1,14 @@
+{
+	"name": "monorepo",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Colin McDonnell",
+	"license": "MIT",
+	"devDependencies": {
+		"typescript": "beta"
+	},
+	"scripts": {
+		"build": "pnpm --filter 'pkg-b...' build",
+		"clean": "pnpm --filter 'pkg-b...' clean"
+	}
+}
