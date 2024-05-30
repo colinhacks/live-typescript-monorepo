@@ -1,4 +1,3 @@
-
 export class Fish{
 
   constructor(public name: string){}
