@@ -1,9 +1,13 @@
 {
   "compilerOptions": {
-    "lib": [
-      "ESNext",
-      "DOM"
-    ],
+    // important stuff
+    "paths": {
+      "pkg-a": ["./packages/pkg-a/index.ts"],
+      "pkg-b": ["./packages/pkg-b/index.ts"]
+    },
+
+    // basics
+    "lib": ["ESNext", "DOM"],
     "target": "ESNext",
     "module": "ESNext",
     "moduleDetection": "force",

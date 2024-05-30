@@ -3,17 +3,15 @@
 	"version": "0.0.1",
 	"type": "module",
 	"main": "./lib/index.js",
+	"types": "./lib/index.d.ts",
 	"exports": {
 		".": {
 			"import": "./lib/index.js",
 			"require": "./lib/index.js",
-			"types": "./index.d.ts",
-			"source": "./types.ts"
+			"types": "./index.d.ts"
 		},
 		"./package.json": "./package.json"
 	},
-
-	"types": "lib/index.d.ts",
 	"scripts": {
 		"build": "tsc",
 		"clean": "rm -rf lib node_modules"

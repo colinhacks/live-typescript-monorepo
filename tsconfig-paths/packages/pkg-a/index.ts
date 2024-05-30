@@ -5,4 +5,8 @@ export class Fish{
   swim(){
     console.log(`${this.name} is swimming`);
   }
+
+  speak(){
+    console.log(`${this.name} is speaking`);
+  }
 }

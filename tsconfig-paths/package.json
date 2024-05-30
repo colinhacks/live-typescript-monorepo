@@ -8,7 +8,7 @@
 		"typescript": "beta"
 	},
 	"scripts": {
-		"build": "pnpm --filter 'pkg-*' build",
-		"clean": "pnpm --filter 'pkg-*' clean"
+		"build": "pnpm --filter 'pkg-b...' build",
+		"clean": "pnpm --filter 'pkg-b...' clean"
 	}
 }

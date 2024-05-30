@@ -1,9 +1,4 @@
 {
   "extends": "./tsconfig.base.json",
-  "compilerOptions": {
-    "paths": {
-      "pkg-a": ["./packages/pkg-a/index.ts"],
-      "pkg-b": ["./packages/pkg-b/index.ts"],
-    }
-  }
+  "compilerOptions": {}
 }
