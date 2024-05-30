@@ -6,7 +6,7 @@ In development, your TypeScript code should feel "alive". When you update your c
 
 This is true even for monorepos, where you may not be importing things from a file, but from a local package.
 
-```ts
+```diff
 - import { Fish } from "../pkg-a/index";
 + import { Fish } from "pkg-a"
 ```
