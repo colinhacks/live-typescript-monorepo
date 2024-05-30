@@ -13,7 +13,7 @@ This is true even for monorepos, where you may not be importing things from a fi
 
 This repo contains a few strategies you can use to make your TypeScript monorepo feel more alive. Each directory contains a monorepo with the following file structure:
 
-```json
+```txt
 .
 ├── package.json
 ├── packages
