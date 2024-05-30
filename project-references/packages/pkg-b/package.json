@@ -3,11 +3,13 @@
 	"version": "0.0.1",
 	"type": "module",
 	"main": "./lib/index.js",
+	"types": "./lib/index.d.ts",
 	"exports": {
 		".": {
+			"source": "./index.ts",
 			"import": "./lib/index.js",
 			"require": "./lib/index.js",
-			"types": "./index.d.ts"
+			"types": "./lib/index.d.ts"
 		},
 		"./package.json": "./package.json"
 	},
