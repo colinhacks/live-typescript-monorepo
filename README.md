@@ -1,5 +1,21 @@
 Read the [associated blog post](https://colinhacks.com/essays/live-types-typescript-monorepo) for complete information.
 
+This repo contains three subdirectories, each demonstrating a different approach to configuring "live types" in a TypeScript monorepo.
+
+#. `custom-conditions`
+#. `tsconfig-paths`
+#. `publishConfig`
+
+To play around with each one:
+
+```sh
+$ cd custom-conditions    # or tsconfig-paths or publishConfig
+$ pnpm i                  # install
+$ code .                  # open in VS Code
+```
+
+Once the project is open in VS Code, open `packages/pkg-a/index.ts` and `packages/pkg-b/index.ts`. When you change the definition of `Fish` in `pkg-a`, those changes will propagate immediately to `pkg-b` without a build step.
+
 # _Live types_ in TypeScript monorepos
 
 In development, your TypeScript code should feel "alive". When you update your code in one file, the effects of that change should propogate to all files that import it.
