@@ -9,6 +9,8 @@ This repo contains three subdirectories, each demonstrating a different approach
 To play around with each one:
 
 ```sh
+$ gh repo clone colinhacks/live-typescript-monorepo
+$ cd live-typescript-monorepo
 $ cd custom-conditions    # or tsconfig-paths or publishConfig
 $ pnpm i                  # install
 $ code .                  # open in VS Code
