@@ -14,6 +14,7 @@ $ cd live-typescript-monorepo
 $ cd custom-conditions    # or tsconfig-paths or publishConfig
 $ pnpm i                  # install
 $ code .                  # open in VS Code
+$ pnpm test               # execute pkg-b/index.ts with tsx
 ```
 
 Once the project is open in VS Code, open `packages/pkg-a/index.ts` and `packages/pkg-b/index.ts`. When you change the definition of `Fish` in `pkg-a`, those changes will propagate immediately to `pkg-b` without a build step.
