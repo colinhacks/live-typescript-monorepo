@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "composite": false
+  },
+  "references": [
+    {
+      "pkg-a": "./packages/pkg-a"
+    },
+    {
+      "pkg-b": "./packages/pkg-b"
+    }
+  ]
+}

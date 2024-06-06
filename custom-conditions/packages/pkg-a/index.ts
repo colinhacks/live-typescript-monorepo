@@ -1,13 +1,11 @@
+export class Fish {
+	constructor(public name: string) {}
 
-export class Fish{
+	swim() {
+		console.log(`${this.name} is swimming`);
+	}
 
-  constructor(public name: string){}
-
-  swim(){
-    console.log(`${this.name} is swimming`);
-  }
-
-  speak(){
-    console.log(`${this.name} is speaking`);
-  }
+	speak() {
+		console.log(`${this.name} is speaking`);
+	}
 }

@@ -1,0 +1,22 @@
+{
+	"name": "pkg-b",
+	"version": "0.0.1",
+	"type": "module",
+	"main": "./lib/index.js",
+	"types": "./lib/index.d.ts",
+	"exports": {
+		".": {
+			"import": "./lib/index.js",
+			"require": "./lib/index.js",
+			"types": "./lib/index.d.ts"
+		},
+		"./package.json": "./package.json"
+	},
+	"dependencies": {
+		"pkg-a": "workspace:^"
+	},
+	"scripts": {
+		"build": "tsc",
+		"clean": "rm -rf lib node_modules"
+	}
+}
