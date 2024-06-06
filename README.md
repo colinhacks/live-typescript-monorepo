@@ -4,7 +4,7 @@ This repo contains three subdirectories, each demonstrating a different approach
 
 1. `custom-conditions`
 2. `tsconfig-paths`
-3. `publishConfig`
+3. `publishconfig`
 
 To play around with each one:
 
