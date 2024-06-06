@@ -7,14 +7,14 @@
 	"exports": {
 		".": {
 			"import": {
+				"types": "./lib/index.d.ts",
 				"source": "./index.ts",
-				"default": "./lib/index.js",
-				"types": "./lib/index.d.ts"
+				"default": "./lib/index.js"
 			},
 			"require": {
+				"types": "./lib/index.d.ts",
 				"source": "./index.ts",
-				"default": "./lib/index.js",
-				"types": "./lib/index.d.ts"
+				"default": "./lib/index.js"
 			}
 		},
 		"./package.json": "./package.json"
