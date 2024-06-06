@@ -2,9 +2,9 @@ Read the [associated blog post](https://colinhacks.com/essays/live-types-typescr
 
 This repo contains three subdirectories, each demonstrating a different approach to configuring "live types" in a TypeScript monorepo.
 
-#. `custom-conditions`
-#. `tsconfig-paths`
-#. `publishConfig`
+1. `custom-conditions`
+2. `tsconfig-paths`
+3. `publishConfig`
 
 To play around with each one:
 
