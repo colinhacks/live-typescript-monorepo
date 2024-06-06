@@ -5,10 +5,10 @@
   },
   "references": [
     {
-      "pkg-a": "./packages/pkg-a"
+      "path": "./packages/pkg-a"
     },
     {
-      "pkg-b": "./packages/pkg-b"
+      "path": "./packages/pkg-b"
     }
   ]
 }
