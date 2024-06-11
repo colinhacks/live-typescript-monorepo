@@ -53,11 +53,7 @@ Configure `compilerOptions.paths` in `tsconfig.json` to override resolution for 
 
 ### `4. tshy-dev`
 
-Using `tshy`'s `liveDev` mode. The `tshy` tool is an opinionated tool by the creator of `npm` that makes it simple to build ESM and CommonJS packages from your TypeScript source code. It supports a `liveDev` mode that will hardlink your TypeScript source code into `./dist/esm` and `./dist/commonjs` directories. This lets VS Code discover your live TypeScript source code without any additional `package.json` configuration.
-
-The downside is that this requires running `tshy` in each of your workspaces packages. Additionally, you'll need to re-run `tshy` each time you add a new TypeScript file.
-
-> Running `tshy --watch` can mitigate the "new file" problem, but for the purposes of this repo, I'm avoiding any solutions that require a file system watcher.
+Using `tshy`'s `liveDev` mode to hard-link the `.ts` source code directly into `./dist/esm` and `./dist/commonjs` directories. This lets VS Code discover your live TypeScript source code without any additional `package.json` configuration.
 
 ### `5. custom-conditions`
 
