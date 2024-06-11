@@ -1,0 +1,30 @@
+{
+	"name": "pkg-a",
+	"version": "0.0.1",
+	"type": "module",
+	"main": "./dist/commonjs/index.ts",
+	"exports": {
+		"./package.json": "./package.json",
+		".": {
+			"import": {
+				"source": "./src/index.ts",
+				"default": "./dist/esm/index.ts"
+			},
+			"require": {
+				"source": "./src/index.ts",
+				"default": "./dist/commonjs/index.ts"
+			}
+		}
+	},
+	"scripts": {
+		"build": "tshy",
+		"clean": "rm -rf lib node_modules"
+	},
+	"tshy": {
+		"exports": {
+			"./package.json": "./package.json",
+			".": "./src/index.ts"
+		},
+		"liveDev": true
+	}
+}
