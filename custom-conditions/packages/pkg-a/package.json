@@ -8,12 +8,12 @@
 		".": {
 			"import": {
 				"types": "./lib/index.d.ts",
-				"source": "./index.ts",
+				"@colinhacks/source": "./index.ts",
 				"default": "./lib/index.js"
 			},
 			"require": {
 				"types": "./lib/index.d.ts",
-				"source": "./index.ts",
+				"@colinhacks/source": "./index.ts",
 				"default": "./lib/index.js"
 			}
 		},

@@ -11,6 +11,6 @@
 	"scripts": {
 		"build": "pnpm --filter 'pkg-b...' build",
 		"clean": "pnpm --filter 'pkg-b...' clean",
-		"test": "tsx --conditions source ./packages/pkg-b/index.ts"
+		"test": "tsx --conditions @colinhacks/source ./packages/pkg-b/index.ts"
 	}
 }
